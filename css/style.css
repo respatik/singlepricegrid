@@ -42,7 +42,7 @@ h4{
 .container{
   padding: 30px;
   margin: 0;
-  width: 295px;
+  width: 300px;
   height: 200px;
   border-radius: 5px;
 }
@@ -50,13 +50,13 @@ h4{
 .container-top{
   background-color: white;
   padding: 30px;
-  width: 650px;
+  width: 660px;
   height: 200px;
   border-radius: 5px;
+
 }
 
 .bottom-left{
-
     background-color: cyan;
     background-color: hsl(179, 50%, 43%);
 }
@@ -100,6 +100,15 @@ h4{
 }
 
 
-@media (max-width: 711px) {
+@media screen and (max-width: 450px) {
+
+.containers{
+  flex-direction: column;
+  margin: 50px 50px 50px 50px
+}
+
+.container-top{
+  width: 300px;
+}
 
 }
