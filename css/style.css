@@ -1,0 +1,100 @@
+html{
+  background-color: lightgrey;
+  background-color: hsl(204, 43%, 93%);
+}
+
+body{
+font-family: 'Karla', sans-serif;
+font-size: 16px;
+color: lightgrey;
+color: hsl(204, 43%, 93%);
+
+}
+
+h2{
+  color: cyan;
+  color: hsl(179, 62%, 43%);
+}
+
+h3{
+  color: yellow;
+  color: hsl(71, 73%, 54%);
+}
+
+h4{
+  color: lightgrey;
+  color: hsl(204, 43%, 93%);
+}
+
+.opening{
+  color: gray;
+  color: hsl(218, 22%, 67%)
+}
+
+.containers{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 100px 200px 100px 200px;
+  max-width: 1440px;
+}
+
+.container{
+  padding: 30px;
+  margin: 0;
+  width: 295px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.container-top{
+  background-color: white;
+  padding: 30px;
+  width: 650px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.bottom-left{
+
+    background-color: cyan;
+    background-color: hsl(179, 50%, 43%);
+}
+
+.bottom-right{
+  background-color: cyan;
+  background-color: hsl(179, 62%, 43%);
+}
+
+.price{
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.month{
+  color: lightgrey;
+  font-weight: 400;
+}
+
+.why-us{
+  font-size: 10px;
+}
+
+.button {
+  border: none;
+  color: lightgrey;
+  color: hsl(204, 50%, 93%);
+  padding: 10px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  background-color: yellow;
+  background-color: hsl(71, 73%, 54%);
+}
+
+.button:hover{
+  background-color: cyan;
+  background-color: hsl(179, 50%, 43%);
+}
